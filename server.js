@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 3000; // Change the default port to 4000 or any other available port
 
 // Middleware to parse JSON bodies
 app.use(express.json());
